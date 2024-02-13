@@ -37,4 +37,9 @@ for i in range (200):
     pendown()
     stamp()
 
+penup()
+goto(0,-760)
+color( "white")
+write("Te amo Barbara", align="center", font=(Arial", 20, "normal"))
+
 done()
